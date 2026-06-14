@@ -1,52 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
+body{
+    margin:0;
+    font-family:Segoe UI,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:white;
 }
 
-header {
-    background-color: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 20px;
+header{
+    text-align:center;
+    padding:30px;
 }
 
-.container {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px gray;
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    color:black;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
 }
 
-input {
-    width: 60%;
-    padding: 10px;
-    margin: 10px;
+input{
+    width:60%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid gray;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    cursor: pointer;
+button{
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
 }
 
-button:hover {
-    background-color: #005fa3;
+button:hover{
+    background:#1d4ed8;
 }
 
-#result {
-    margin-top: 20px;
-    font-weight: bold;
-    color: green;
+#output{
+    margin-top:20px;
+    text-align:left;
+    line-height:1.8;
 }
 
-footer {
-    text-align: center;
-    background-color: #222;
-    color: white;
-    padding: 10px;
+.design-thinking{
+    width:90%;
+    margin:30px auto;
+    text-align:center;
+}
+
+.card{
+    display:inline-block;
+    width:180px;
+    margin:10px;
+    padding:20px;
+    background:white;
+    color:black;
+    border-radius:12px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
 }
